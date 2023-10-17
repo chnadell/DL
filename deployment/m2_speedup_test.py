@@ -17,6 +17,7 @@ if __name__ == "__main__":
     # test parameters
     n_ims = 20
     batch_sizes = [1, 2, 4, 8, 10, 12, 16, 32, 40, 48, 58, 64]
+    batch_sizes.reverse()
 
     cpu_times = []
     mps_times = []
